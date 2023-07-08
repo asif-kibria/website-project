@@ -17,8 +17,8 @@
     display: flex;
 }
 .item{
-    margin: 10px;
-    padding: 7px;
+    margin-right: 10px;
+    padding-right: 7px;
     font-size: 15px;
     cursor: pointer;
 }
@@ -27,4 +27,33 @@ width: 90px;
 }
 .item:hover{
     color: chartreuse;
+}
+.banner-img{
+   width: 100px; 
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+   height: 100vh;
+   align-items: center; 
+   /* border: 2px solid gray ; */
+   color: white;
+   background-image: url("./Images/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.avif"),linear-gradient(45deg, #673131c8, #000);
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: blanchedalmond;
+    color: black;
+    border: none;
+    
+
 }
