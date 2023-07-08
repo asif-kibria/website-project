@@ -39,6 +39,9 @@ width: 90px;
    /* border: 2px solid gray ; */
    color: white;
    background-image: url("./Images/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.avif"),linear-gradient(45deg, #673131c8, #000);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
 .title{
     font-size: 55px;
@@ -57,3 +60,15 @@ width: 90px;
     
 
 }
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+}
+
